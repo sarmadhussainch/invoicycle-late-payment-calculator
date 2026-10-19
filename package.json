@@ -1,0 +1,39 @@
+{
+  "name": "invoicycle-late-payment-calculator",
+  "version": "1.0.0",
+  "description": "Zero-dependency statutory interest & compensation calculator for overdue invoices under the UK Late Payment of Commercial Debts (Interest) Act 1998.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "late-payment",
+    "statutory-interest",
+    "bank-of-england",
+    "invoice-interest",
+    "debt-recovery",
+    "uk-business",
+    "overdue-invoice",
+    "invoicing",
+    "invoicycle"
+  ],
+  "author": "Sarmad Hussain <info@invoicycle.com> (https://invoicycle.com)",
+  "license": "MIT",
+  "homepage": "https://invoicycle.com/calculators/uk-late-payment-interest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmadhussainch/invoicycle.com.git",
+    "directory": "packages/invoicycle-late-payment-calculator"
+  },
+  "bugs": {
+    "url": "https://invoicycle.com/contact-us"
+  }
+}
